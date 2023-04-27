@@ -1,2 +1,2 @@
-FROM hshar/webapp
-ADD . /var/www/http
+FROM httpd
+COPY ./public-html/ /usr/local/apache2/htdocs/
